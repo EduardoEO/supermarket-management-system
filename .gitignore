@@ -1,0 +1,80 @@
+# ==========================================
+# Gitignore para AdminSupermercado
+# ==========================================
+
+# --- Compilación y Bytecode Java ---
+*.class
+*.war
+*.ear
+*.nar
+*.jar
+!AdminSupermercado.exe
+
+# Directorios de salida de compilación
+out/
+**/out/
+bin/
+**/bin/
+target/
+build/
+
+# --- IntelliJ IDEA ---
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/vcs.xml
+*.iws
+*.iml
+!AdminSupermercado/AdminSupermercado.iml
+
+# --- Visual Studio Code ---
+.vscode/
+*.code-workspace
+
+# --- Eclipse ---
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# --- NetBeans ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- Archivos del Sistema Operativo ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# --- Logs y archivos temporales ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
